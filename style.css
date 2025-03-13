@@ -1,0 +1,77 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    gap: 1rem;
+    height: 100vh;
+
+}
+
+.left-panel {
+    width:20%;
+    height: 100%;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    
+
+}
+
+.right-panel {
+    width:80%;
+    height: 100%;
+    background-color: aliceblue;
+    overflow-y: scroll;
+    padding: 1rem;
+    font-family: "Big Shoulders Stencil", sans-serif;
+  
+    
+}
+h3{
+    color: green;
+    font-size: 32px;
+}
+p {
+    font-size:  24px;
+}
+h5 {
+    
+}
+.profile-image{
+    height: 7rem;
+    width: 7rem;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.icons {
+    list-style-type:none;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+
+}
+.icon img {
+    height:3rem;
+    width: 3rem;
+    align-items:center;
+}
+.skill-icons{
+    justify-content: space-between;
+    align-items: center;
+}
+.skill-icons img {
+    height: 4rem;
+    width: 4rem;
+}
+.contact {
+    font-size: 24px;
+    padding-bottom: 5rem;
+}
+
